@@ -1,17 +1,21 @@
 %\documentclass[11pt]{amsart}
 \documentclass[11pt]{article}
-\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
-\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+\usepackage[letterpaper,left=2.5cm,right=2cm,textheight=23.5cm]{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+%\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
 %\geometry{landscape}                % Activate for for rotated page geometry
 %\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
 \usepackage{graphicx}
 \usepackage{amssymb}
 \usepackage{epstopdf}
+%\usepackage[margin=0.9in]{geometry}
+%\setlength{textwidth}{7.0in}
 \newcommand{\arcsec}{$^{\prime\prime}$}
 %\usepackage[left=2cm, right=5cm, top=2cm]{geometry}
 \DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
 \linespread{1.5}
-\title{\bf Planning for Drift-Scan Spectra of LMC SNRs from SOAR/Goodman}
+\title{\bf Planning for Drift-Scan Spectra of LMC SNRs \\
+(and H~II regions) from SOAR/Goodman \\
+Dec 2018 - Jan 2019}
 %\author{The Author}
 \date{}                                           % Activate to display a given date or no date
 
@@ -26,9 +30,19 @@ The panels are:
 }
 
 \flushleft{Ha subtracted \qquad  [S II] subtracted}
-\vspace{3 mm}
-\flushleft{Ha \qquad \qquad \qquad \quad  [S II]/Ha (0.25 = neutral grey)}\
-\vspace{2cm}
+\vspace{2 mm}
+\flushleft{Ha \qquad \qquad \qquad \   \  [S II]/Ha (0.25 = neutral grey)}\
+\vspace{1cm}
+
+\quad\quad\quad or in some cases (should be obvious)
+
+\vspace{0.5cm}
+\flushleft{Ha \qquad \qquad  \qquad \  \  \  \  [S II] subtracted}
+\vspace{2 mm}
+\flushleft{Red continuum \qquad [S II]/Ha (0.25 = neutral grey)}\
+
+\vspace{0.5cm}
+
 \flushleft{Notes:}
 
 \textbullet \quad SNRs labeled ``Bxxxx-yy.y" all appear in Mathewson (1983, 84, or 85) and all have regions marked in BLUE .
@@ -52,7 +66,7 @@ Date/Frames:
 Exposure Times:  
 
 \begin{figure}
-\includegraphics[width=10.05cm]{snapshots/J0448-6700.png}
+\includegraphics[width=11.cm]{snapshots/J0448-6700.png}
 \end{figure}
 
 \newpage
@@ -69,7 +83,7 @@ Date/Frames:
 Exposure Times:  
 
 \begin{figure}
-\includegraphics[width=10.05cm]{snapshots/J0449-6920.png}
+\includegraphics[width=11.cm]{snapshots/J0449-6920.png}
 \end{figure}
 
 \newpage
@@ -91,6 +105,9 @@ Exposure Times:  2 x 30 min
 \includegraphics[width=12.5cm]{snapshots/J0453-6655a.png}
 \end{figure}
 
+%\end{document}
+
+
 \newpage
 {\bf J0453-6829 = B0453-685}
 
@@ -105,7 +122,7 @@ Date/Frames:
 Exposure Times:  
 
 \begin{figure}
-\includegraphics[width=10.05cm]{snapshots/B0453-685.png}
+\includegraphics[width=11.cm]{snapshots/B0453-685.png}
 \end{figure}
 
 \newpage
@@ -122,7 +139,7 @@ Date/Frames:
 Exposure Times:  
 
 \begin{figure}
-\includegraphics[width=10.05cm]{snapshots/J0454-7003.png}
+\includegraphics[width=11.cm]{snapshots/J0454-7003.png}
 \end{figure}
 
 \newpage
@@ -139,7 +156,7 @@ Date/Frames:
 Exposure Times:  
 
 \begin{figure}
-\includegraphics[width=10.05cm]{snapshots/J0454-6712.png}
+\includegraphics[width=11.cm]{snapshots/J0454-6712.png}
 \end{figure}
 
 \newpage
@@ -162,6 +179,23 @@ Exposure Times:  3 x 30 min
 \end{figure}
 
 \newpage
+{\bf J0454-6625 = B0454-665 = N11L\ \ Longslit (5 arcmin field)}
+
+SNR Center:   4:54:49.0   -66:25:42.0     
+
+45$^\circ$ slit, center on marked (faint) star; then offset N 2.5\arcsec
+
+Do 2 x 900 s exposures  (if time, do 1000 s, or better 1200 s)
+
+Date/Frames:  
+
+Exposure Times:  
+
+\begin{figure}
+\includegraphics[width=12.5cm]{snapshots/N11L_longslit.png}
+\end{figure}
+
+\newpage
 {\bf J0455-6839 = B0455-687 = N86}
 
 Slit Center:   4:55:46.302    -68:37:41.817     E-W
@@ -177,7 +211,7 @@ Date/Frames:  Night 1, frames 283-285
 Exposure Times:  3 x 30 min
 
 \begin{figure}
-\includegraphics[width=10.05cm]{snapshots/B0455-687.png}
+\includegraphics[width=11.cm]{snapshots/B0455-687.png}
 \end{figure}
 
 
@@ -195,7 +229,7 @@ Date/Frames:
 Exposure Times:  
 
 \begin{figure}
-\includegraphics[width=10.05cm]{snapshots/B0500-702.png}
+\includegraphics[width=11.cm]{snapshots/B0500-702.png}
 \end{figure}
 
 \newpage
@@ -212,7 +246,7 @@ Date/Frames:
 Exposure Times:  
 
 \begin{figure}
-\includegraphics[width=10.05cm]{snapshots/B0505-679.png}
+\includegraphics[width=11.cm]{snapshots/B0505-679.png}
 \end{figure}
 
 \newpage
@@ -229,7 +263,7 @@ Date/Frames:
 Exposure Times:  
 
 \begin{figure}
-\includegraphics[width=10.05cm]{snapshots/B0506-680.png}
+\includegraphics[width=11.cm]{snapshots/B0506-680.png}
 \end{figure}
 
 \newpage
@@ -246,7 +280,7 @@ Date/Frames:
 Exposure Times:  
 
 \begin{figure}
-\includegraphics[width=10.05cm]{snapshots/J0506-7025.png}
+\includegraphics[width=11.cm]{snapshots/J0506-7025.png}
 \end{figure}
 
 \newpage
@@ -263,7 +297,7 @@ Date/Frames:
 Exposure Times:  
 
 \begin{figure}
-\includegraphics[width=10.05cm]{snapshots/J0507-7110.png}
+\includegraphics[width=11.cm]{snapshots/J0507-7110.png}
 \end{figure}
 
 \newpage
@@ -280,7 +314,7 @@ Date/Frames:
 Exposure Times:  
 
 \begin{figure}
-\includegraphics[width=10.05cm]{snapshots/J0508-6902.png}
+\includegraphics[width=11.cm]{snapshots/J0508-6902.png}
 \end{figure}
 
 \newpage
@@ -297,7 +331,7 @@ Date/Frames:  Night 1, frames 292-294
 Exposure Times:  
 
 \begin{figure}
-\includegraphics[width=10.05cm]{snapshots/N103B_5arcmin.png}
+\includegraphics[width=11.cm]{snapshots/N103B_5arcmin.png}
 \end{figure}
 
 \newpage
@@ -316,7 +350,7 @@ Date/Frames:
 Exposure Times:  
 
 \begin{figure}
-\includegraphics[width=10.05cm]{snapshots/B0509-675_5arcmin.png}
+\includegraphics[width=11.cm]{snapshots/B0509-675_5arcmin.png}
 \end{figure}
 
 \newpage
@@ -333,7 +367,7 @@ Date/Frames:
 Exposure Times:  
 
 \begin{figure}
-\includegraphics[width=10.05cm]{snapshots/J0511-6759.png}
+\includegraphics[width=11.cm]{snapshots/J0511-6759.png}
 \end{figure}
 
 \newpage
@@ -350,7 +384,7 @@ Date/Frames:
 Exposure Times:  
 
 \begin{figure}
-\includegraphics[width=10.05cm]{snapshots/J0512-6707.png}
+\includegraphics[width=11.cm]{snapshots/J0512-6707.png}
 \end{figure}
 
 \newpage
@@ -367,7 +401,7 @@ Date/Frames:
 Exposure Times:  
 
 \begin{figure}
-\includegraphics[width=10.05cm]{snapshots/J0512-6702.png}
+\includegraphics[width=11.cm]{snapshots/J0512-6702.png}
 \end{figure}
 
 \newpage
@@ -384,7 +418,7 @@ Date/Frames:
 Exposure Times:  
 
 \begin{figure}
-\includegraphics[width=10.05cm]{snapshots/B0513-692.png}
+\includegraphics[width=11.cm]{snapshots/B0513-692.png}
 \end{figure}
 
 \newpage
@@ -401,7 +435,7 @@ Date/Frames:
 Exposure Times:  
 
 \begin{figure}
-\includegraphics[width=10.05cm]{snapshots/J0514-6840.png}
+\includegraphics[width=11.cm]{snapshots/J0514-6840.png}
 \end{figure}
 
 \newpage
@@ -418,7 +452,7 @@ Date/Frames:
 Exposure Times:  
 
 \begin{figure}
-\includegraphics[width=10.05cm]{snapshots/J0517-6759.png}
+\includegraphics[width=11.cm]{snapshots/J0517-6759.png}
 \end{figure}
 
 \newpage
@@ -455,24 +489,29 @@ Date/Frames:
 Exposure Times:  
 
 \begin{figure}
-\includegraphics[width=10.05cm]{snapshots/B0519-690_5arcmin.png}
+\includegraphics[width=11.cm]{snapshots/B0519-690_5arcmin.png}
 \end{figure}
 
 \newpage
-{\bf J0519--6925 = B0520-69.4}  
+{\bf J0519--6925 = B0520-69.4 (5 arcmin field)}  \ \ Surf Brightness 0.5 E-15 ergs/cm$^2/$s/arcsec$^2$
  
-Slit Center:   5:19:33.637  -69:25:56.631 N-S
+SNR Center:   5:19:45.1  -69:25:58.0, \ \  E-W slit 
 
-Scan:  East
+Center on marked star S of shell; offset W 39\arcsec, N 25\arcsec
 
-Scan rate:  
+Scan:  North 140\arcsec
 
-Date/Frames:
+Scan rate:  + 280\arcsec/hr \ \ in Decl.  for 1800 s exposure
 
-Exposure Times:  
+Date/Frames/Exposures:
+
+\vspace{0.20in}
+{\bf Longslit:}  from starting position, offset N 90\arcsec\ = 115\arcsec\ from ref star
+
+{\bf Alternative longslit:}  from starting position, offset N 6\arcsec\ = 31\arcsec\ from ref star
 
 \begin{figure}
-\includegraphics[width=10.05cm]{snapshots/B0520-694.png}
+\includegraphics[width=12.5cm]{snapshots/B0520_694_5arcmin.png}
 \end{figure}
 
 \newpage
@@ -489,7 +528,7 @@ Date/Frames:
 Exposure Times:  
 
 \begin{figure}
-\includegraphics[width=10.05cm]{snapshots/J0521-6542.png}
+\includegraphics[width=11.cm]{snapshots/J0521-6542.png}
 \end{figure}
 
 \newpage
@@ -506,7 +545,7 @@ Date/Frames:
 Exposure Times:  
 
 \begin{figure}
-\includegraphics[width=10.05cm]{snapshots/J0523-6753.png}
+\includegraphics[width=11.cm]{snapshots/J0523-6753.png}
 \end{figure}
 
 \newpage
@@ -523,7 +562,7 @@ Date/Frames:
 Exposure Times:  
 
 \begin{figure}
-\includegraphics[width=10.05cm]{snapshots/B0524-664.png}
+\includegraphics[width=11.cm]{snapshots/B0524-664.png}
 \end{figure}
 
 \newpage
@@ -540,7 +579,7 @@ Date/Frames:
 Exposure Times:  
 
 \begin{figure}
-\includegraphics[width=10.05cm]{snapshots/N132D.png}
+\includegraphics[width=11.cm]{snapshots/N132D.png}
 \end{figure}
 
 \newpage
@@ -557,7 +596,7 @@ Date/Frames:  Nite 1, frames 277-280
 Exposure Times:  2 x 10 min  +  2 x 20 min
 
 \begin{figure}
-\includegraphics[width=10.05cm]{snapshots/N49B_5arcmin.png}
+\includegraphics[width=11.cm]{snapshots/N49B_5arcmin.png}
 \end{figure}
 
 \newpage
@@ -574,7 +613,7 @@ Date/Frames:  Nite 1, frames 258-264
 Exposure Times:  4 x 10 min
 
 \begin{figure}
-\includegraphics[width=10.05cm]{snapshots/N49_5arcmin.png}
+\includegraphics[width=11.cm]{snapshots/N49_5arcmin.png}
 \end{figure}
 
 \newpage
@@ -591,7 +630,7 @@ Date/Frames:
 Exposure Times:  
 
 \begin{figure}
-\includegraphics[width=10.05cm]{snapshots/B0528-672.png}
+\includegraphics[width=11.cm]{snapshots/B0528-672.png}
 \end{figure}
 
 \newpage
@@ -609,7 +648,7 @@ Exposure Times:
 
 No snapshot yet
 \begin{figure}
-%\includegraphics[width=10.05cm]{snapshots/xxx.png}
+%\includegraphics[width=11.cm]{snapshots/xxx.png}
 \end{figure}
 
 \newpage
@@ -626,7 +665,7 @@ Date/Frames:
 Exposure Times:  
 
 \begin{figure}
-\includegraphics[width=10.05cm]{snapshots/J0528-7104_big.png}
+\includegraphics[width=11.cm]{snapshots/J0528-7104_big.png}
 \end{figure}
 
 \newpage
@@ -664,7 +703,7 @@ Date/Frames:
 Exposure Times:  
 
 \begin{figure}
-\includegraphics[width=10.05cm]{snapshots/J0530-7007.png}
+\includegraphics[width=11.cm]{snapshots/J0530-7007.png}
 \end{figure}
 
 \newpage
@@ -700,7 +739,7 @@ Date/Frames:
 Exposure Times:  
 
 \begin{figure}
-\includegraphics[width=10.05cm]{snapshots/B0534-699.png}
+\includegraphics[width=11.cm]{snapshots/B0534-699.png}
 \end{figure}
 
 \newpage
@@ -717,7 +756,7 @@ Date/Frames:
 Exposure Times:  
 
 \begin{figure}
-\includegraphics[width=10.05cm]{snapshots/B0534-705.png}
+\includegraphics[width=11.cm]{snapshots/B0534-705.png}
 \end{figure}
 
 \newpage
@@ -774,7 +813,7 @@ Date/Frames:
 Exposure Times:  
 
 \begin{figure}
-\includegraphics[width=10.05cm]{snapshots/B0536-706.png}
+\includegraphics[width=11.cm]{snapshots/B0536-706.png}
 \end{figure}
 
 
@@ -793,7 +832,7 @@ Exposure Times:
 
 no snapshot
 \begin{figure}
-%\includegraphics[width=10.05cm]{snapshots/B0536-706.png}
+%\includegraphics[width=11.cm]{snapshots/B0536-706.png}
 \end{figure}
 
 \newpage
@@ -829,7 +868,7 @@ Date/Frames:
 Exposure Times:  
 
 \begin{figure}
-\includegraphics[width=10.05cm]{snapshots/J0538-7004.png}
+\includegraphics[width=11.cm]{snapshots/J0538-7004.png}
 \end{figure}
 
 \newpage
@@ -846,7 +885,7 @@ Date/Frames:
 Exposure Times:  
 
 \begin{figure}
-\includegraphics[width=10.05cm]{snapshots/B0540-693_5arcmin.png}
+\includegraphics[width=11.cm]{snapshots/B0540-693_5arcmin.png}
 \end{figure}
 
 \newpage
@@ -863,7 +902,7 @@ Date/Frames:
 Exposure Times:  
 
 \begin{figure}
-\includegraphics[width=10.05cm]{snapshots/B0543-689.png}
+\includegraphics[width=11.cm]{snapshots/B0543-689.png}
 \end{figure}
 
 \newpage 
@@ -872,7 +911,7 @@ Exposure Times:
 %\vspace{0.1in}
  
 %{\bf J0546-6942 = B0547-69.7 = N135 = DEML316B}
-{\bf J0547-6941=DEML316A  (one to east)}
+{\bf J0547-6941=DEML316A  (smaller one, to east)}
 
 Image Center (for pair):  5:47:09,-69:41:36  N-S slit; offset few \arcsec E and S to marked star
 
@@ -914,7 +953,68 @@ Date/Frames:
 Exposure Times:  
 
 \begin{figure}
-\includegraphics[width=10.05cm]{snapshots/B0548-704.png}
+\includegraphics[width=11.cm]{snapshots/B0548-704.png}
+\end{figure}
+
+\newpage 
+ 
+ 
+{\bf Hc2, compact H II region (5 arcmin field})   \ \   Surf Brightness 3.7 E-15 ergs/cm$^2/$s/arcsec$^2$
+
+Object Center:  4:54:12.62   -68:21:49   E-W slit
+
+Center on marked star NW of the object; offset E 47\arcsec,  S 44\arcsec
+
+Scan:  South 55\arcsec
+
+Scan rate:  - 165\arcsec/hr\ in Decl. for 1200 s exposures
+
+Date/Frames:
+
+Exposure Times:  
+
+\begin{figure}
+\includegraphics[width=12.5cm]{snapshots/Hc2_HII_5arcmin.png}
+\end{figure}
+
+\newpage 
+ 
+{\bf Hc10, compact H II region (5 arcmin field})   \ \   Surf Brightness 8.6 E-15 ergs/cm$^2/$s/arcsec$^2$
+
+Object Center:  5:20:33.0    -66:46:43.7   N-S slit
+
+Center on marked star NW of the object; offset E 23\arcsec,  S 63\arcsec
+
+Scan:    East 70\arcsec
+
+Scan rate:  + 210\arcsec/hr\ in R.A. for 1200 s exposures
+
+Date/Frames:
+
+Exposure Times:  
+
+\begin{figure}
+\includegraphics[width=12.5cm]{snapshots/Hc10_HII.png}
+\end{figure}
+
+\newpage 
+ 
+{\bf Hc20, compact H II region (10 arcmin field})   \ \   Surf Brightness 2.1 E-15 ergs/cm$^2/$s/arcsec$^2$
+
+Object Center:  5:40:42.9    -70:02:30.4   N-S slit
+
+Center on marked star SE of the object; offset W 21\arcsec,  N 84\arcsec
+
+Scan:    West 150\arcsec
+
+Scan rate:  -450\arcsec/hr\ in R.A. for 1200 s exposures
+
+Date/Frames:
+
+Exposure Times:  
+
+\begin{figure}
+\includegraphics[width=12.5cm]{snapshots/Hc20_HII.png}
 \end{figure}
 
 
